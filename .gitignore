@@ -1,0 +1,2 @@
+#ignore printer.cfg dated backups
+printer-*.cfg
