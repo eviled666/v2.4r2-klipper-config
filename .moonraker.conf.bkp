@@ -33,15 +33,6 @@ bound_service = klipper
 restart_klipper_when_powered = True
 restart_delay = 4
 
-[power topleds]
-type = gpio
-pin = !gpiochip0/gpio20
-initial_state = on
-off_when_shutdown = True
-locked_while_printing = False
-on_when_job_queued = True
-restart_klipper_when_powered = False
-
 [history]
 
 [file_manager]
