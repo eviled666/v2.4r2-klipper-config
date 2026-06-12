@@ -68,13 +68,6 @@ output_path = ~/timelapse/
 frame_path = /tmp/timelapse/
 ffmpeg_binary_path = /usr/bin/ffmpeg
 
-[notifier discord]
-url = https://discord.com/api/webhooks/801548029349593088/B-O_pvpZaZ9mcvhVjzSruXLGnXBsh-s6yVNL_PxGKk8wZYjuatVFT_BvUMlSRkOJ3KHh
-events = *
-body = "Your printer status has changed to {event_name}"
-title = 
-attach = http://172.16.20.122/webcam/?action=snapshot
-
 [octoprint_compat]
 enable_ufp = True
 stream_url = http://172.16.20.122/webcam/?action=stream
