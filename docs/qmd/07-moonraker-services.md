@@ -1,13 +1,15 @@
 ---
 title: Moonraker & Services — Voron 2.4r2
-updated: 2026-04-19
-tags: [moonraker, services, updates, notifications, crowsnest, timelapse]
-keywords: moonraker, mainsail, timelapse, crowsnest, discord webhook, update_manager, octoprint_compat, power, gpio, spider, KlipperScreen, KAMP, cartographer, happy-hare, led_effect
+updated: 2026-08-02
+tags: [moonraker, services, updates, notifications, crowsnest, timelapse, heavensdoor]
+keywords: moonraker, mainsail, timelapse, crowsnest, discord webhook, update_manager, octoprint_compat, power, gpio, spider, KlipperScreen, KAMP, cartographer, happy-hare, led_effect, HeavensDoor, 172.16.10.68
 ---
 
 # Moonraker & Services
 
 ## Moonraker Server (`moonraker.conf`)
+- Hostname: `HeavensDoor`
+- LAN endpoint: `http://172.16.10.68:7125`
 - Host: 0.0.0.0, port 7125
 - Klippy socket: `/home/edwin/printer_data/comms/klippy.sock`
 - Trusted networks: 172.16.0.0/16, 10.0.0.0/8, 192.168.0.0/16 (local networks)
@@ -56,3 +58,4 @@ keywords: moonraker, mainsail, timelapse, crowsnest, discord webhook, update_man
 - "power control gpio spider MCU"
 - "timelapse output path"
 - "webcam stream URL"
+- "HeavensDoor Moonraker health endpoint"

@@ -1,8 +1,8 @@
 ---
 title: Repo Overview — Voron 2.4r2 Klipper Config
-updated: 2026-04-19
-tags: [overview, hardware, voron, klipper]
-keywords: voron 2.4r2, 350mm, klipper, corexy, spider, mmu, ercf, mainsail, crowsnest, KAMP
+updated: 2026-08-02
+tags: [overview, hardware, voron, klipper, heavensdoor]
+keywords: voron 2.4r2, 350mm, klipper, corexy, spider, mmu, ercf, mainsail, crowsnest, KAMP, HeavensDoor, 172.16.10.68
 ---
 
 # Repo Overview
@@ -10,6 +10,8 @@ keywords: voron 2.4r2, 350mm, klipper, corexy, spider, mmu, ercf, mainsail, crow
 Klipper firmware configuration for a **Voron 2.4r2 350mm CoreXY** enclosed printer.
 
 ## Printer Identity
+- Hostname: `HeavensDoor`
+- Klipper host: Raspberry Pi at static address `172.16.10.68/24`
 - Frame: Voron 2.4r2, 350 × 350 × 340 mm build volume
 - Kinematics: CoreXY with 4-Z (quad gantry level)
 - Main MCU: Mellow Spider (CAN bus, `canbus_uuid: 0c5a285e7f21`)
@@ -53,3 +55,4 @@ Klipper firmware configuration for a **Voron 2.4r2 350mm CoreXY** enclosed print
 - "printer hardware overview voron"
 - "which config files are included"
 - "mmu snapshot backup directory"
+- "HeavensDoor host operations"

@@ -1,8 +1,8 @@
 ---
 title: QMD Index — Voron 2.4r2 Klipper Config
-updated: 2026-04-19
-tags: [index, klipper, voron]
-keywords: voron 2.4r2, klipper, moonraker, mmu, ercf, cartographer, happy-hare, ebb36, index
+updated: 2026-08-02
+tags: [index, klipper, voron, heavensdoor]
+keywords: voron 2.4r2, klipper, moonraker, mmu, ercf, cartographer, happy-hare, ebb36, HeavensDoor, host operations, git backup, index
 ---
 
 # Voron 2.4r2 Klipper Config — QMD Index
@@ -14,6 +14,7 @@ keywords: voron 2.4r2, klipper, moonraker, mmu, ercf, cartographer, happy-hare, 
 - [05-mmu-config.md](05-mmu-config.md) — Happy Hare ERCF v2 12-gate MMU setup
 - [06-macros-and-flow.md](06-macros-and-flow.md) — PRINT_START, END_PRINT, utility macros
 - [07-moonraker-services.md](07-moonraker-services.md) — Moonraker, update managers, notifications
+- [08-host-operations.md](08-host-operations.md) — HeavensDoor network, SSH, runtime paths, Git backup, monitoring
 
 ## Suggested QMD Queries
 - "voron printer hardware overview"
@@ -21,3 +22,5 @@ keywords: voron 2.4r2, klipper, moonraker, mmu, ercf, cartographer, happy-hare, 
 - "print start macro parameters"
 - "cartographer probe bed mesh"
 - "EBB36 toolhead pins"
+- "HeavensDoor static IP and SSH access"
+- "Klipper config Git backup recovery"
